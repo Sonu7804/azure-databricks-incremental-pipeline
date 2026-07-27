@@ -83,13 +83,5 @@ Full notebook (with outputs): [`autoloader_incremental_ingestion.ipynb`](./autol
 **4. Trigger run history confirming the pipeline fired automatically at 6:00 AM the next day**
 ![Trigger run confirmed](./screenshots/4_trigger_run_confirmed.png)
 
-*(Account identifiers blurred in all screenshots.)*
-
-## What's next
-
-- Delta Live Tables for declarative pipeline management
-- Unity Catalog for centralized governance
-- Power BI dashboard connected directly to the Gold layer containers
-
 ---
 **Author:** Sonu Kushwaha
