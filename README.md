@@ -71,11 +71,25 @@ Full notebook (with outputs): [`autoloader_incremental_ingestion.ipynb`](./autol
 
 ## Screenshots
 
-| # | Description |
-|---|---|
-| 1 | Azure Data Factory — Schedule Trigger published successfully |
-| 2 | Auto Loader detecting and processing a 50,000-row file automatically |
-| 3 | Final Gold layer table — 14 clean rows after fixing the Thu/Thur inconsistency |
-| 4 | Trigger run history confirming the pipeline fired automatically at 6:00 AM the next day |
+**1. Azure Data Factory — Schedule Trigger published successfully**
+![ADF trigger published](./screenshots/1_adf_trigger_live.png)
 
+**2. Auto Loader detecting and processing a 50,000-row file automatically**
+![Auto Loader incremental test](./screenshots/2_autoloader_incremental_test.png)
+
+**3. Final Gold layer table — 14 clean rows after fixing the Thu/Thur inconsistency**
+![Gold layer clean data](./screenshots/3_gold_layer_clean_data.png)
+
+**4. Trigger run history confirming the pipeline fired automatically at 6:00 AM the next day**
+![Trigger run confirmed](./screenshots/4_trigger_run_confirmed.png)
+
+*(Account identifiers blurred in all screenshots.)*
+
+## What's next
+
+- Delta Live Tables for declarative pipeline management
+- Unity Catalog for centralized governance
+- Power BI dashboard connected directly to the Gold layer containers
+
+---
 **Author:** Sonu Kushwaha
