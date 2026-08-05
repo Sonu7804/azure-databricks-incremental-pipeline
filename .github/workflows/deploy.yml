@@ -21,7 +21,7 @@ jobs:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
         run: |
           databricks workspace import \
-            autoloader_incremental_ingestion.ipynb \
             /Workspace/Users/sonu.kushwaha1@studentambassadors.com/autoloader_incremental_ingestion \
+            --file autoloader_incremental_ingestion.ipynb \
             --format JUPYTER \
             --overwrite
